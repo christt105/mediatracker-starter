@@ -3,6 +3,8 @@
 A minimal, ready-to-deploy site using the
 [hugo-mediatracker-theme](https://github.com/christt105/hugo-mediatracker-theme).
 
+**Demo:** https://christt105.github.io/mediatracker-starter/
+
 ## Use it
 
 1. Click **Use this template** on GitHub (or clone).
