@@ -1,0 +1,60 @@
+title = "My Media Tracker"
+baseURL = "https://example.org/"
+languageCode = "es-es"
+defaultContentLanguage = "es"
+enableEmoji = true
+
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+
+[module]
+  [[module.imports]]
+    path = "github.com/christt105/hugo-mediatracker-theme"
+
+[menu]
+  [[menu.main]]
+    identifier = 'library'
+    pageRef = '/'
+    name = 'Biblioteca'
+    url = '/'
+    weight = 20
+  [[menu.main]]
+    parent = 'library'
+    pageRef = 'movies'
+    name = 'Películas'
+    url = '/movies/'
+    weight = 1
+  [[menu.main]]
+    parent = 'library'
+    pageRef = 'games'
+    name = 'Juegos'
+    url = '/games/'
+    weight = 2
+  [[menu.main]]
+    pageRef = 'stats'
+    name = 'Estadísticas'
+    url = '/stats/'
+    weight = 55
+  [[menu.main]]
+    pageRef = 'about'
+    name = 'Acerca de'
+    url = '/about/'
+    weight = 60
+
+[params]
+  sitename = "My Media Tracker"
+  defaultColor = "dark"
+  description = "A personal log of the movies and games I consume."
+  mainSections = ['movies', 'games']
+  toc = false
+  goToTop = true
+  dateFormat = "2 Jan 2006"
+
+[params.author]
+  intro = "My Media Tracker"
+  name = "your-name"
+  description = "Example site built with the hugo-mediatracker-theme."
+
+[[params.socialIcons]]
+  name = "github"
+  url = "https://github.com/your-name"
