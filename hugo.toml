@@ -44,6 +44,11 @@ enableEmoji = true
     url = '/games/'
     weight = 3
   [[menu.main]]
+    pageRef = 'collage'
+    name = 'Collage'
+    url = '/collage/'
+    weight = 53
+  [[menu.main]]
     pageRef = 'stats'
     name = 'Stats'
     url = '/stats/'
