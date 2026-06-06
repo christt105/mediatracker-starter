@@ -1,5 +1,7 @@
 ---
 title: Hollow Knight
+image: cover.jpg
+banner_image: banner.jpg
 type: videogame
 status: paused
 release_date: 2017-02-24

@@ -1,5 +1,6 @@
 ---
 title: Spirited Away
+image: cover.jpg
 type: movie
 status: in_progress
 release_date: 2001-07-20

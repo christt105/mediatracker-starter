@@ -1,5 +1,7 @@
 ---
 title: Celeste
+image: cover.jpg
+banner_image: banner.jpg
 type: videogame
 status: finished
 rating: "7"

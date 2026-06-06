@@ -1,5 +1,7 @@
 ---
 title: The Matrix
+image: cover.jpg
+banner_image: banner.jpg
 type: movie
 status: finished
 rating: "7"
