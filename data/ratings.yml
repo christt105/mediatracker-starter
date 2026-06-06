@@ -2,52 +2,52 @@
 # 1-10. Override the labels, colors and icons to taste. The `default` entry is a
 # fallback for any rating value not listed.
 "10":
-  label: "Obra maestra"
+  label: "Masterpiece"
   color: "#a855f7"
   icon: "fa-solid fa-crown"
   text_color: "white"
 "9":
-  label: "Excelente"
+  label: "Excellent"
   color: "#22c55e"
   icon: "fa-solid fa-heart"
   text_color: "white"
 "8":
-  label: "Genial"
+  label: "Great"
   color: "#4ade80"
   icon: "fa-solid fa-face-grin-stars"
   text_color: "white"
 "7":
-  label: "Muy bueno"
+  label: "Very good"
   color: "#84cc16"
   icon: "fa-solid fa-thumbs-up"
   text_color: "white"
 "6":
-  label: "Bueno"
+  label: "Good"
   color: "#a3e635"
   icon: "fa-solid fa-face-smile"
   text_color: "black"
 "5":
-  label: "Correcto"
+  label: "OK"
   color: "#eab308"
   icon: "fa-solid fa-face-meh"
   text_color: "black"
 "4":
-  label: "Flojo"
+  label: "Weak"
   color: "#f59e0b"
   icon: "fa-solid fa-face-frown"
   text_color: "black"
 "3":
-  label: "Malo"
+  label: "Bad"
   color: "#f97316"
   icon: "fa-solid fa-thumbs-down"
   text_color: "white"
 "2":
-  label: "Muy malo"
+  label: "Very bad"
   color: "#ef4444"
   icon: "fa-solid fa-face-dizzy"
   text_color: "white"
 "1":
-  label: "Horrible"
+  label: "Awful"
   color: "#b91c1c"
   icon: "fa-solid fa-skull"
   text_color: "white"

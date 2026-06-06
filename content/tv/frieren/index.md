@@ -1,6 +1,7 @@
 ---
 title: "Frieren: Beyond Journey's End"
 image: cover.jpg
+banner_image: banner.jpg
 type: tv
 status: not_started
 release_date: 2023-09-29
