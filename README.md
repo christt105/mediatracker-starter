@@ -22,6 +22,14 @@ A minimal, ready-to-deploy site using the
 Add a new media type by editing `data/media_types.yml` and adding a matching
 menu entry. See the theme README for all options.
 
+## Adding entries
+
+You can write each `index.md` by hand, but the easiest way is the companion
+[hugo-mediatracker-plugin](https://github.com/christt105/hugo-mediatracker-plugin)
+for Obsidian: search TMDB, TheTVDB, IGDB or Steam and it creates a
+theme-compatible note (cover, banner, metadata) for you. Point Obsidian at your
+`content/` folder and your entries are ready to commit.
+
 ## Deploy
 
 The included GitHub Actions workflow builds and deploys to GitHub Pages. Enable
