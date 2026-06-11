@@ -13,7 +13,7 @@ Part of a small ecosystem that turns your media library into a website:
 - 🚀 **mediatracker-starter** — this repo: the ready-to-clone site. Start here.
 - 🎨 **[hugo-mediatracker-theme](https://github.com/christt105/hugo-mediatracker-theme)** —
   the Hugo theme that renders the library (gallery, search, filters, stats, RSS).
-- 📥 **[hugo-mediatracker-plugin](https://github.com/christt105/hugo-mediatracker-plugin)** —
+- 📥 **[obsidian-mediatracker-plugin](https://github.com/christt105/obsidian-mediatracker-plugin)** —
   an Obsidian plugin that creates theme-compatible entries from TMDB, TheTVDB, IGDB,
   Steam and Open Library (see [Adding entries](#adding-entries)).
 
@@ -37,7 +37,7 @@ menu entry. See the theme README for all options.
 ## Adding entries
 
 You can write each `index.md` by hand, but the easiest way is the companion
-[hugo-mediatracker-plugin](https://github.com/christt105/hugo-mediatracker-plugin)
+[obsidian-mediatracker-plugin](https://github.com/christt105/obsidian-mediatracker-plugin)
 for Obsidian: search TMDB, TheTVDB, IGDB, Steam or Open Library (books) and it
 creates a theme-compatible note (cover, banner, metadata) for you. Point Obsidian at
 your `content/` folder and your entries are ready to commit.
