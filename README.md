@@ -2,8 +2,20 @@
 
 A minimal, ready-to-deploy site using the
 [hugo-mediatracker-theme](https://github.com/christt105/hugo-mediatracker-theme).
+**This is the best place to start** — clone it and you have a working media tracker.
 
 **Demo:** https://christt105.github.io/mediatracker-starter/
+
+## Media Tracker ecosystem
+
+Part of a small ecosystem that turns your media library into a website:
+
+- 🚀 **mediatracker-starter** — this repo: the ready-to-clone site. Start here.
+- 🎨 **[hugo-mediatracker-theme](https://github.com/christt105/hugo-mediatracker-theme)** —
+  the Hugo theme that renders the library (gallery, search, filters, stats, RSS).
+- 📥 **[hugo-mediatracker-plugin](https://github.com/christt105/hugo-mediatracker-plugin)** —
+  an Obsidian plugin that creates theme-compatible entries from TMDB, TheTVDB, IGDB,
+  Steam and Open Library (see [Adding entries](#adding-entries)).
 
 ## Use it
 
@@ -26,9 +38,9 @@ menu entry. See the theme README for all options.
 
 You can write each `index.md` by hand, but the easiest way is the companion
 [hugo-mediatracker-plugin](https://github.com/christt105/hugo-mediatracker-plugin)
-for Obsidian: search TMDB, TheTVDB, IGDB or Steam and it creates a
-theme-compatible note (cover, banner, metadata) for you. Point Obsidian at your
-`content/` folder and your entries are ready to commit.
+for Obsidian: search TMDB, TheTVDB, IGDB, Steam or Open Library (books) and it
+creates a theme-compatible note (cover, banner, metadata) for you. Point Obsidian at
+your `content/` folder and your entries are ready to commit.
 
 ## Deploy
 
