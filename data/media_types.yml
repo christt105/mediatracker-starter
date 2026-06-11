@@ -1,0 +1,8 @@
+# Project-level additions to the theme's media types (data files are merged,
+# with the project taking precedence). The theme ships movie/tv/season/videogame;
+# here we enable books. See the theme's data/media_types.yml for the schema.
+book:
+  section: books
+  icon: "fas fa-book"
+  fields:
+    - author

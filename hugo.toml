@@ -44,6 +44,12 @@ enableEmoji = true
     url = '/games/'
     weight = 3
   [[menu.main]]
+    parent = 'library'
+    pageRef = 'books'
+    name = 'Books'
+    url = '/books/'
+    weight = 4
+  [[menu.main]]
     pageRef = 'collage'
     name = 'Collage'
     url = '/collage/'
@@ -63,7 +69,7 @@ enableEmoji = true
   sitename = "My Media Tracker"
   defaultColor = "dark"
   description = "A personal log of the movies, series and games I watch and play."
-  mainSections = ['movies', 'games', 'tv']
+  mainSections = ['movies', 'games', 'tv', 'books']
   toc = false
   goToTop = true
   dateFormat = "2 Jan 2006"
